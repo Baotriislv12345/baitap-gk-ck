@@ -51,4 +51,4 @@ ctk.CTkButton(app, text="Kiểm tra", command=solve_13).pack(pady=20)
 label_res = ctk.CTkLabel(app, text="")
 label_res.pack()
 
-app.mainloop() 
+app.mainloop()
