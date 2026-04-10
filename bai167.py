@@ -1,5 +1,6 @@
 import customtkinter as ctk
-
+ctk.set_appearance_mode("dark")
+ctk.set_default_color_theme("blue")
 def solve_167():
     try:
         # Giả sử nhập hệ số cách nhau bằng dấu phẩy, bậc từ cao đến thấp

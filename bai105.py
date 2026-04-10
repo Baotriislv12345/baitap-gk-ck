@@ -1,5 +1,7 @@
 import customtkinter as ctk
 import random
+ctk.set_appearance_mode("dark")
+ctk.set_default_color_theme("blue")
 
 def solve_105():
     try:
