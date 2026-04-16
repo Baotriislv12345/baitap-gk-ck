@@ -37,7 +37,7 @@ app.geometry("500x500")
 ctk.CTkLabel(app, text="Nhập liệu (ID: First Last: Birth: Salary):").pack(pady=5)
 text_input = ctk.CTkTextbox(app, height=150)
 text_input.pack(pady=5, padx=10, fill="x")
-text_input.insert("1.0", "4424: Tom Jones: 5/12/66:54335\n1654: Jackie Chan: 7/22/54:65000\n5346: Mary Adams: 11/4/63:28765")
+text_input.insert("1.0", "4424: Vũ Minh Thao: 5/12/66:54335\n1654: Độ mixi: 7/22/54:65000\n5346: Lê Xuân Thân: 11/4/63:28765")
 
 ctk.CTkButton(app, text="Sắp xếp (qsort)", command=solve_199).pack(pady=10)
 label_res = ctk.CTkLabel(app, text="", justify="left")
